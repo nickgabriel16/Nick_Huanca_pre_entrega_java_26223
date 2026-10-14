@@ -2,6 +2,8 @@ Sistema de Gestión de Artículos
 
 Aplicación de consola en Java desarrollada para la preentrega de Programación Orientada a Objetos (POO). El sistema permite administrar artículos comerciales (electrónicos y alimenticios) mediante una colección dinámica en memoria.
 
+
+
 🎯 Objetivos y Conceptos Aplicados
 Herencia (extends): Reutilización de atributos y métodos comunes a partir de la clase base Articulo.
 Clases y Métodos Abstractos: Definición de Articulo como clase abstracta con los métodos getTipoArticulo() y getDetalleEspecifico().
@@ -11,6 +13,8 @@ Uso de super y this: Delegación a constructores y métodos de la superclase.
 Encapsulamiento: Atributos privados accesibles únicamente mediante getters y setters.
 Identificación de Tipos (instanceof y casting): Modificación condicional de atributos propios de cada subtipo.
 Validaciones y Control de Errores: Manejo de entradas numéricas y cadenas no vacías con Scanner y bloques try-catch.
+
+
 📁 Estructura del Proyecto
 text
 herencia_polimorfismo_tostring/
@@ -26,7 +30,9 @@ herencia_polimorfismo_tostring/
 │                   └── Categoria.java
 ├── bin/                 # Archivos compilados (.class)
 └── README.md
+
 Descripción de Clases
+
 Categoria: Representa la categoría del artículo (código, nombre, descripción).
 Articulo (abstracta): Superclase con los datos comunes (código, nombre, precio, categoría).
 ArticuloElectronico: Subclase con atributo propio garantiaMeses y método de soporte técnico.
